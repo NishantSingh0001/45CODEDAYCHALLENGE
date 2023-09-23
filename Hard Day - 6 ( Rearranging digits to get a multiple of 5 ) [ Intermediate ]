@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T;
+	cin>>T;
+	while(T--){
+	    int d;      //number of digits in number
+	    string n;   //the number N entered as a string
+	    cin>>d;
+	    cin>>n;
+	    int flag = 0;
+	   for(int i=0; i<d; i++){
+	       if(n[i]=='0'||n[i]=='5'){
+	           flag=1;
+	           break;
+	       }
+	   }
+	   if(flag==1){
+	           cout<<"Yes"<<endl;
+	       }
+	       else{
+	           cout<<"No"<<endl;
+	       }
+	}
+	return 0;
+}
+
