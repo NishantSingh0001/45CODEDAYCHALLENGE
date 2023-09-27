@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t; 
+	cin>>t ;
+	while(t--)
+	{
+	    int x ,y;
+	    cin>>x>>y ;
+	 /*   d = x/y ;
+	    if(x>y)
+	    {
+	        cout<<d<<endl; 
+	        
+	    }
+	    else
+	    {
+	        cout<<"0"<<endl ;
+	    }*/
+	    cout<<x/y<<endl ;
+	}
+	return 0;
+}
