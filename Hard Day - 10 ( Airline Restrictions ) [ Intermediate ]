@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int T;
+	cin>>T;
+	while(T--){
+	    int A,B,C,D,E;
+	    cin>>A>>B>>C>>D>>E;
+	   /* bool flag=true;*/
+	    if(A+B<=D&& C<=E){
+	        cout<<"YES"<<endl;
+	    }
+	    else if(C+B<=D&& A<=E){
+	        cout<<"YES"<<endl;
+	    }
+	    else if(A+C<=D&& B<=E){
+	        cout<<"YES"<<endl;
+	    }
+	    else{
+	        cout<<"NO"<<endl;
+	    }
+	}
+	
+		// your code goes here
+	return 0;
+}
